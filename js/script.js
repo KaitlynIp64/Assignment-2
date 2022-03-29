@@ -17,5 +17,5 @@ function calculate () {
   const perimeter = base + height + (base ** 2 + height ** 2) ** 0.5
 
   // output
-  document.getElementById('area').innerHTML = 'Perimeter is: ' + perimeter + ' cm'
+  document.getElementById('area').innerHTML = 'Perimeter is: ' + perimeter.toFixed(2) + ' cm'
 }
